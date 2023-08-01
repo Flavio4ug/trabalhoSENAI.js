@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function areaCirculo() {
+            let x = document.getElementById("raio");
+            let valor = x.value
+            
+            let resultado = Math.PI * valor ** 2;
+            document.getElementById("area").innerHTML = resultado;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" placeholder="raio" id="raio">
+    <H1 id="area">área
+    </H1>
+    <button onclick="areaCirculo()">resultado</button>
+</body>
+
+</html>

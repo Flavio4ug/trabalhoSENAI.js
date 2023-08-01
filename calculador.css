@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.butão {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.butão img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

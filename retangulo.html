@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function areaCirculo() {
+            let x = document.getElementById("altura");
+            let valor = x.value
+            let y = document.getElementById("altura");
+            let valor = y.value
+            let resultado = Math.PI * valor ** 2;
+            document.getElementById("area").innerHTML = resultado;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" placeholder="altura" id="altura">
+    <input type="number" placeholder="largura" id="largura">
+    <H1 id="area">área</H1>
+    <button onclick="areaCirculo()">resultado</button>
+</body>
+
+</html>
